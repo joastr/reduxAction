@@ -1,11 +1,11 @@
 
 import uuid from uuid;
 
-const REMOVE_COMMENT = 'REMOVE_COMMENT';
-const EDIT_COMMENT = 'EDIT_COMMENT';
-const ADD_COMMENT= 'ADD_COMMENT';
-const VOTE_UP = 'VOTE_UP';
-const VOTE_DOWN = 'VOTE_DOWN';
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+export const EDIT_COMMENT = 'EDIT_COMMENT';
+export const ADD_COMMENT= 'ADD_COMMENT';
+export const VOTE_UP = 'VOTE_UP';
+export const VOTE_DOWN = 'VOTE_DOWN';
 
 function addComment(text) {
     return {
@@ -45,3 +45,6 @@ function voteDown (id, vote) {
         id
     };
 }
+
+
+
